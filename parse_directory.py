@@ -14,7 +14,7 @@ class MyEMAFFileParser(EMAFFileParser):
 
     @classmethod
     def callback_adjustment(cls, data):  # called when a batch adjustment record is parsed
-        print("Look mom, new batch Adjustment!")
+        print("Look mom, new batch adjustment!")
 
     @classmethod
     def callback_summary(cls, data):  # called when a summary record is parsed

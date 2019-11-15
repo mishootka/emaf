@@ -1,0 +1,27 @@
+eMAF File Hierarchy:
+
+010: Credit File Header Record
+	070: Detail MID/Batch Header Record
+		300: Credit Reconciliation Detail Records
+		301: Credit Reconciliation Detail Records
+		306: Credit Reconciliation Detail Records
+	970: Detail Batch Number Trailer Record
+	080: Summary Section Header Record
+		500: Credit Reconciliation Summary Records
+		501: Credit Reconciliation Summary Records
+		503: Credit Reconciliation Summary Records
+	980: Summary Section Trailer Record
+910: Credit File Trailer Record
+
+020: Debit File Header Record
+	070: Detail MID/Batch Header Record
+		320: Debit POS Reconciliation Detail Records
+		321: Debit POS Reconciliation Detail Records
+	970: Detail Batch Number Trailer Record
+	080: Summary Section Header Record
+		520: Debit POS Reconciliation Summary Records
+		521: Debit POS Reconciliation Summary Records
+		522: Debit POS Reconciliation Summary Records
+	980: Summary Section Trailer Record
+920: Debit File Trailer Record
+

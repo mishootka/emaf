@@ -13,6 +13,9 @@ Worldpay/Vantiv Merchant Activity File parser.
 
 
 ## Usage
-Refer to parse_directory.py file
+Refer to parse_directory.py file for usage.
+
+For tests run:
+make test
 
 
